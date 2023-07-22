@@ -1,10 +1,8 @@
-import React from "react";
 import { FaSearch } from "react-icons/fa";
-
 const SearchClg = () => {
   return (
-    <div className="bg-sky-500  rounded-b-2xl py-10">
-      <div className="bg-gray-700 mt-14 p-10 border-y-8 border-dashed border-white">
+    <div className="bg-sky-500 rounded-b-2xl py-10">
+      <div className="bg-gray-700 mt-14 py-8 md:pr-8 border-y-8 border-dashed border-white">
         <div className="text-center container mx-auto">
           <input
             className="max-w-96 md:text-lg md:w-96 text-center border-4 rounded-lg"

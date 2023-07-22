@@ -26,16 +26,26 @@ const CollegeCards = () => {
                   <div className="card-body">
                     <h2 className="card-title">{college.name}</h2>
                     <div>
-                      <p>Addmission Deadline:- {college.admissionDates}</p>
                       <p>
-                        <span>Events:-</span>
+                        <span className="font-semibold">
+                          Addmission Deadline:-
+                        </span>
+                        {college.admissionDates}
+                      </p>
+                      <p>
+                        <span className="font-semibold">Events:-</span>
                         <p className="ml-14">
                           {college.events?.map((program, ind) => (
                             <li key={ind}>{program}</li>
                           ))}
                         </p>
                       </p>
-                      <p>Research History:-{college.researchHistory}</p>
+                      <p>
+                        <span className="font-semibold">
+                          Research History:-
+                        </span>
+                        {college.researchHistory}
+                      </p>
                     </div>
                     <div className="card-actions justify-end">
                       <button className="bg-sky-500 text-white px-2 py-1 rounded-xl">

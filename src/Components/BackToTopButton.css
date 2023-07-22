@@ -1,0 +1,15 @@
+/* BackToTopButton.css */
+
+.back-to-top-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top-button.visible {
+  opacity: 1;
+}

@@ -2,12 +2,14 @@ import React from "react";
 import Home from "../HomePage/HomeContainer/Home";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Components/Navbar";
+import BackToTopButton from "../Components/BackToTopButton";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className="scroll-smooth">
       <Navbar />
       <Outlet />
+      <BackToTopButton />
       <h3>Footer</h3>
     </div>
   );

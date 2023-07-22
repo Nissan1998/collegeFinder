@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Example University",
+    "name": "NOTRE DAME COLLEGE",
     "image": "path/to/college1-image.jpg",
     "admissionDates": "August 1 - August 15",
     "events": ["Orientation Day", "Career Fair", "Alumni Reunion"],

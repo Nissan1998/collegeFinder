@@ -2,7 +2,7 @@ import CollegeCards from "./CollegeCards";
 
 const Home = () => {
   return (
-    <div>
+    <div id="home">
       <CollegeCards />
     </div>
   );
