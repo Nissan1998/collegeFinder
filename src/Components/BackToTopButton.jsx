@@ -34,7 +34,7 @@ const BackToTopButton = () => {
 
   return (
     <button
-      className={`back-to-top-button btn-circle bg-sky-500 ${
+      className={`back-to-top-button glass btn-circle bg-sky-500 ${
         showButton ? "visible" : ""
       }`}
       onClick={scrollToTop}

@@ -1,4 +1,5 @@
 import CollegesReview from "../../Components/CollegesReview/CollegesReview";
+import Footer from "../../Components/Footer";
 import MasonryGallery from "../../Components/Gallery/MasonryGallery";
 
 import CollegeCards from "./CollegeCards";
@@ -10,6 +11,7 @@ const Home = () => {
       <MasonryGallery />
       <RecommendedResearchPapers />
       <CollegesReview />
+      <Footer />
     </div>
   );
 };
