@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useAllColleges = () => {
-  const [allColleges, setCollege] = useState();
+  const [allColleges, setCollege] = useState([]);
   useEffect(() => {
     fetch("collegesData.json")
       .then((res) => res.json())

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "NOTRE DAME COLLEGE",
-    "image": "path/to/college1-image.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Logo_of_Notre_Dame_College%2C_Dhaka.svg/640px-Logo_of_Notre_Dame_College%2C_Dhaka.svg.png",
     "admissionDates": "August 1 - August 15",
     "events": ["Orientation Day", "Career Fair", "Alumni Reunion"],
     "researchHistory": "Established in 1950, pioneering research in various fields.",
@@ -10,8 +10,8 @@
   },
   {
     "id": 2,
-    "name": "Sample College",
-    "image": "path/to/college2-image.jpg",
+    "name": "Rajuk Uttara Model College",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Morogram_of_RAJUK_Uttara_Model_College.svg/1200px-Morogram_of_RAJUK_Uttara_Model_College.svg.png",
     "admissionDates": "September 1 - September 30",
     "events": ["Freshman Welcome Week", "Tech Fest", "Cultural Festival"],
     "researchHistory": "A leading research institution since 1978.",
@@ -19,8 +19,8 @@
   },
   {
     "id": 3,
-    "name": "University of Excellence",
-    "image": "path/to/college3-image.jpg",
+    "name": "Adamjee Cantonment College",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Adamjee_Cantonment_College_Monogram.svg/1200px-Adamjee_Cantonment_College_Monogram.svg.png",
     "admissionDates": "July 15 - July 30",
     "events": ["Open House", "Science Symposium", "Homecoming"],
     "researchHistory": "Proud history of groundbreaking research since 1925.",
