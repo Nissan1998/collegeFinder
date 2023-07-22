@@ -29,7 +29,7 @@ const CollegeCards = () => {
         className="w-full bg-fixed  max-w-screen-2xl mx-auto  bg-cover "
       >
         <div className="collegeContainer ">
-          <h1 className="text-center font-bold text-3xl border-b-4 w-96 mx-auto border-black mb-10 pt-5">
+          <h1 className="text-center font-bold text-3xl border-b-4 w-96 mx-auto border-black  pt-5">
             Top Three Colleges
           </h1>
           <div>

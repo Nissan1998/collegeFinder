@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 const SearchClg = ({ searchTerm, handleSearch }) => {
   return (
     <div className="bg-sky-500 rounded-b-2xl py-10">
-      <div className="bg-gray-700 mt-14 py-8 md:pr-8 border-y-8 border-dashed border-white">
+      <div className="bg-gray-700 bg-fixed rounded-b-3xl bg-opacity-20 container mx-auto mt-8  p-5 ">
         <div className="text-center container mx-auto">
           <input
             className="max-w-96 md:text-lg md:w-96 text-center border-4 rounded-lg"

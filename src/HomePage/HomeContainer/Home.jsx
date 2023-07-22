@@ -1,3 +1,4 @@
+import CollegesReview from "../../Components/CollegesReview/CollegesReview";
 import MasonryGallery from "../../Components/Gallery/MasonryGallery";
 
 import CollegeCards from "./CollegeCards";
@@ -8,6 +9,7 @@ const Home = () => {
       <CollegeCards />
       <MasonryGallery />
       <RecommendedResearchPapers />
+      <CollegesReview />
     </div>
   );
 };
