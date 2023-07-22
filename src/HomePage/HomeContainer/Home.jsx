@@ -1,9 +1,9 @@
-import React from "react";
+import CollegeCards from "./CollegeCards";
 
 const Home = () => {
   return (
     <div>
-      <h2>This is home container or Outlet</h2>
+      <CollegeCards />
     </div>
   );
 };

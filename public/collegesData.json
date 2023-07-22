@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Example University",
+    "image": "path/to/college1-image.jpg",
+    "admissionDates": "August 1 - August 15",
+    "events": ["Orientation Day", "Career Fair", "Alumni Reunion"],
+    "researchHistory": "Established in 1950, pioneering research in various fields.",
+    "sports": ["Football", "Basketball", "Swimming"]
+  },
+  {
+    "id": 2,
+    "name": "Sample College",
+    "image": "path/to/college2-image.jpg",
+    "admissionDates": "September 1 - September 30",
+    "events": ["Freshman Welcome Week", "Tech Fest", "Cultural Festival"],
+    "researchHistory": "A leading research institution since 1978.",
+    "sports": ["Soccer", "Tennis", "Track and Field"]
+  },
+  {
+    "id": 3,
+    "name": "University of Excellence",
+    "image": "path/to/college3-image.jpg",
+    "admissionDates": "July 15 - July 30",
+    "events": ["Open House", "Science Symposium", "Homecoming"],
+    "researchHistory": "Proud history of groundbreaking research since 1925.",
+    "sports": ["Volleyball", "Baseball", "Golf"]
+  }
+]
