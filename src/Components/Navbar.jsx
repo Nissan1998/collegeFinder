@@ -40,8 +40,10 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link className="btn btn-ghost normal-case text-xl">
-            CollegeFinder
+          <Link className=" normal-case border-4 rounded-full border-yellow-400 text-xl">
+            <span className="bg-sky-500 text-yellow-400  px-2 rounded-full py-1 glass">
+              CollegeFinder
+            </span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -61,7 +63,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link className="border-2 rounded-xl py-1 glass transition delay-150 hover:text-yellow-500 border-white hover:bg-white  px-5 ">
+          <Link className="border-2  rounded-xl py-1 glass transition delay-150 hover:text-yellow-500  border-white hover:bg-white  px-5 ">
             <span>Login</span>
           </Link>
         </div>

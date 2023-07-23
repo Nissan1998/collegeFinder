@@ -26,8 +26,8 @@ const Footer = () => {
         </div>
         <div className="max-w-screen-xl mx-auto">
           <div className="space-x-5 font-bold ">
-            <Link>Home</Link>
-            <Link>All Colleges</Link>
+            <a href="/">Home</a>
+            <Link to="/colleges">All Colleges</Link>
             <Link>Admission</Link>
           </div>
           <span className="footer-title">Social</span>
