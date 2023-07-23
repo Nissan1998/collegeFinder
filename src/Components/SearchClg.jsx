@@ -6,7 +6,7 @@ const SearchClg = ({ searchTerm, handleSearch }) => {
       <div className="bg-gray-700 bg-fixed rounded-b-3xl bg-opacity-20 container mx-auto mt-8  p-5 ">
         <div className="text-center container mx-auto">
           <input
-            className="max-w-96 md:text-lg md:w-96 text-center border-4 rounded-lg"
+            className="max-w-96  md:text-lg md:w-96 text-center border-4 rounded-lg"
             type="text"
             placeholder="Find Your College by Name"
             value={searchTerm}
