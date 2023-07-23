@@ -3,6 +3,7 @@ import Home from "../HomePage/HomeContainer/Home";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import BackToTopButton from "../Components/BackToTopButton";
+import Footer from "../Components/Footer";
 
 const MainLayout = () => {
   return (
@@ -10,7 +11,7 @@ const MainLayout = () => {
       <Navbar />
       <Outlet />
       <BackToTopButton />
-      <h3>Footer</h3>
+      <Footer />
     </div>
   );
 };

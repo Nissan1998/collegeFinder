@@ -17,7 +17,6 @@ import { Rating } from "@smastrom/react-rating";
 
 const CollegesReview = () => {
   const reviews = useReviews();
-  console.log(reviews);
   return (
     <div>
       <h1 className="text-center font-bold text-3xl underline mt-10">
@@ -43,13 +42,16 @@ const CollegesReview = () => {
           <SwiperSlide className="bg-sky-500" key={idx}>
             <div>
               <div className="avatar flex justify-center mt-3">
-                <div className="w-24  bg-gradient-to-r from-yellow-500 to-white p-2 rounded-full">
+                <div className="w-24  bg-gradient-to-r from-yellow-400 to-white p-2 rounded-full">
                   <img className="rounded-full" src={review.img} />
                 </div>
               </div>
-              <h2 className="text-center text-xl text-white font-bold">
+              <h2 className="text-center text-xl text-yellow-400 font-bold">
                 {review.name}
               </h2>
+              <p className="text-center font-bold text-lg text-white">
+                {review.collegeName}
+              </p>
               <div className="flex justify-center">
                 <Rating
                   style={{ maxWidth: 180 }}
