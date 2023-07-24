@@ -37,11 +37,12 @@ const AddCoffee = () => {
       .then((data) => {
         Swal.fire({
           title: "Success!",
-          text: "The Coffee Added Successfully",
+          text: " Admission Successful",
           icon: "success",
           confirmButtonText: "OK",
         });
         console.log(data);
+        form.reset();
       });
   };
   return (
@@ -53,7 +54,7 @@ const AddCoffee = () => {
           </h3>
           <form
             onSubmit={handleSubmit}
-            className="md:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto"
+            className="md:w-3/4 font-semibold lg:w-2/3 xl:w-1/2 mx-auto"
           >
             <div className="md:flex gap-5  mt-2 p-5">
               <div className="form-control md:w-1/2">

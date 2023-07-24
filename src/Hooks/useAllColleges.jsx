@@ -12,3 +12,4 @@ const useAllColleges = () => {
 };
 
 export default useAllColleges;
+// http://localhost:5000/allcolleges

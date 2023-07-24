@@ -41,7 +41,7 @@ const Navbar = () => {
                 <Link to="/colleges">Colleges</Link>
               </li>
               <li>
-                <Link>Admission</Link>
+                <Link to="/collegeslist">Admission</Link>
               </li>
               <li>
                 <Link>My College</Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
               <Link to="/colleges">Colleges</Link>
             </li>
             <li>
-              <Link to="/admission">Admission</Link>
+              <Link to="/collegeslist">Admission</Link>
             </li>
             <li>
               <Link>My College</Link>

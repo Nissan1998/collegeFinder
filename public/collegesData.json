@@ -6,8 +6,13 @@
     "admissionDates": "August 1 - August 15",
     "events": ["Orientation Day", "Career Fair", "Alumni Reunion"],
     "researchHistory": "Established in 1950, pioneering research in various fields.",
-    "sports": ["Football", "Basketball", "Swimming"]
+    "sports": ["Football", "Basketball", "Swimming"],
+    "admission_process": "Rajuk Uttara Model College's admission process typically involves filling out an application form, submitting required documents, and may include an admission test or interview. For updated details, check their official website or contact the college directly.",
+    "events_details": "Apologies for the confusion in my previous responses. As an AI language model, I don't have access to real-time data, including specific details about events at Rajuk Uttara Model College (RUMC). For information about their events, visit their official website or contact the college directly.",
+    "research_works": "Rajuk Uttara Model College (RUMC) primarily focuses on higher secondary education, and research works may be limited. For updates, visit their official website or contact the college directly.",
+    "sports_categories": "Rajuk Uttara Model College offers sports like football, cricket, basketball, badminton, athletics, volleyball, chess, handball, and swimming. For details, check their website or contact the college."
   },
+
   {
     "id": 2,
     "name": "Rajuk Uttara Model College",
@@ -15,8 +20,13 @@
     "admissionDates": "September 1 - September 30",
     "events": ["Freshman Welcome Week", "Tech Fest", "Cultural Festival"],
     "researchHistory": "A leading research institution since 1978.",
-    "sports": ["Soccer", "Tennis", "Track and Field"]
+    "sports": ["Soccer", "Tennis", "Track and Field"],
+    "admission_process": "Rajuk Uttara Model College's admission process typically involves filling out an application form, submitting required documents, and may include an admission test or interview. For updated details, check their official website or contact the college directly.",
+    "events_details": "Apologies for the confusion in my previous responses. As an AI language model, I don't have access to real-time data, including specific details about events at Rajuk Uttara Model College (RUMC). For information about their events, visit their official website or contact the college directly.",
+    "research_works": "Rajuk Uttara Model College (RUMC) primarily focuses on higher secondary education, and research works may be limited. For updates, visit their official website or contact the college directly.",
+    "sports_categories": "Rajuk Uttara Model College offers sports like football, cricket, basketball, badminton, athletics, volleyball, chess, handball, and swimming. For details, check their website or contact the college."
   },
+
   {
     "id": 3,
     "name": "Adamjee Cantonment College",
@@ -24,6 +34,10 @@
     "admissionDates": "July 15 - July 30",
     "events": ["Open House", "Science Symposium", "Homecoming"],
     "researchHistory": "Proud history of groundbreaking research since 1925.",
-    "sports": ["Volleyball", "Baseball", "Golf"]
+    "sports": ["Volleyball", "Baseball", "Golf"],
+    "admission_process": "Rajuk Uttara Model College's admission process typically involves filling out an application form, submitting required documents, and may include an admission test or interview. For updated details, check their official website or contact the college directly.",
+    "events_details": "Apologies for the confusion in my previous responses. As an AI language model, I don't have access to real-time data, including specific details about events at Rajuk Uttara Model College (RUMC). For information about their events, visit their official website or contact the college directly.",
+    "research_works": "Rajuk Uttara Model College (RUMC) primarily focuses on higher secondary education, and research works may be limited. For updates, visit their official website or contact the college directly.",
+    "sports_categories": "Rajuk Uttara Model College offers sports like football, cricket, basketball, badminton, athletics, volleyball, chess, handball, and swimming. For details, check their website or contact the college."
   }
 ]
