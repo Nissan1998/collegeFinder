@@ -80,7 +80,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           {user && (
-            <Link to="/profile" className="mr-5 hidden md:flex">
+            <Link to="myprofile" className="mr-5 hidden md:flex">
               <FaUserCircle className="inline-block text-xl mr-2" />{" "}
               {user?.displayName}
             </Link>

@@ -27,6 +27,7 @@ const MyColleges = () => {
         console.log(err);
       });
   }, []);
+  console.log(user?.email);
 
   const handleRatingChange = (event) => {
     setRating(parseInt(event.target.value, 10));

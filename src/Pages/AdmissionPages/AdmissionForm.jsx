@@ -111,7 +111,8 @@ const AddCoffee = () => {
                   <input
                     type="email"
                     name="email"
-                    required
+                    value={user?.email}
+                    readOnly
                     placeholder="Email"
                     className="input input-bordered md:w-full"
                   />

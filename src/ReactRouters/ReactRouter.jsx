@@ -8,6 +8,7 @@ import AdmissionForm from "../Pages/AdmissionPages/AdmissionForm";
 import CollegesList from "../Pages/AdmissionPages/CollegesList";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import MyColleges from "../Pages/MyColleges/MyColleges";
+import MyProfile from "../Pages/MyProfile/MyProfile";
 
 const router = createBrowserRouter([
   {
@@ -40,8 +41,12 @@ const router = createBrowserRouter([
         element: <AdmissionForm />,
       },
       {
-        path: "/mycolleges",
+        path: "mycolleges",
         element: <MyColleges />,
+      },
+      {
+        path: "myprofile",
+        element: <MyProfile />,
       },
     ],
   },
