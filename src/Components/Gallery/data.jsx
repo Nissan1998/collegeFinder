@@ -1,10 +1,10 @@
 export default [
   {
-    css: "https://i.ibb.co/SXhMfy9/adamjee.jpg",
+    css: "https://www.newagebd.com/files/records/news/202207/175462_130.jpg",
     height: 400,
   },
   {
-    css: "https://i.ibb.co/Gvq3pRd/notredam.jpg",
+    css: "https://www.icmab.org.bd/wp-content/uploads/2019/12/IMG_5669-800x320.jpg",
     height: 400,
   },
   {
@@ -24,7 +24,7 @@ export default [
     height: 400,
   },
   {
-    css: "https://oldsite.diu.ac/wp-content/themes/diu-theme-lite-v1/images/convocation/six-covocation13.JPG",
+    css: "https://i.ytimg.com/vi/b1GYMsa9rJk/hqdefault.jpg",
     height: 400,
   },
   {
@@ -45,10 +45,7 @@ export default [
     height: 400,
   },
   {
-    css: "https://i.ibb.co/Qc0FKQs/rajuk.jpg",
+    css: "https://www.icmab.org.bd/wp-content/uploads/2019/12/IMG_5624-800x468.jpg",
     height: 400,
   },
 ];
-// https://i.ibb.co/SXhMfy9/adamjee.jpg
-// https://i.ibb.co/Gvq3pRd/notredam.jpg
-// https://i.ibb.co/Qc0FKQs/rajuk.jpg

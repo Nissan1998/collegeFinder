@@ -9,7 +9,9 @@ const MyProfile = () => {
   const details = myColleges[0];
 
   useEffect(() => {
-    fetch(`http://localhost:5000/myadmission/${user?.email}`)
+    fetch(
+      `https://college-finder-server-three.vercel.app/myadmission/${user?.email}`
+    )
       .then((res) => res.json())
       .then((data) => setCollege(data))
       .catch((err) => {

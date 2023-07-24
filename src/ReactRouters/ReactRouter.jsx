@@ -9,6 +9,8 @@ import CollegesList from "../Pages/AdmissionPages/CollegesList";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import MyColleges from "../Pages/MyColleges/MyColleges";
 import MyProfile from "../Pages/MyProfile/MyProfile";
+import CollegeDetails from "../Pages/CollegeDetals/CollegeDetails";
+import PrivateRoute from "../PrivateRouter/PrivateRouter";
 
 const router = createBrowserRouter([
   {
@@ -38,11 +40,27 @@ const router = createBrowserRouter([
       },
       {
         path: "admission/:id",
-        element: <AdmissionForm />,
+        element: (
+          <PrivateRoute>
+            <AdmissionForm />,
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "collegedetails/:id",
+        element: (
+          <PrivateRoute>
+            <CollegeDetails />,
+          </PrivateRoute>
+        ),
       },
       {
         path: "mycolleges",
-        element: <MyColleges />,
+        element: (
+          <PrivateRoute>
+            <MyColleges />,
+          </PrivateRoute>
+        ),
       },
       {
         path: "myprofile",

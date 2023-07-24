@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="avatar w-28 mx-auto ml-">
             <img
               className="object-cover ml-4 rounded-full "
-              src="https://thumbs.dreamstime.com/b/graduate-hat-magnifying-glass-logo-design-student-finder-vector-logo-template-graduate-hat-magnifying-glass-logo-design-215092278.jpg"
+              src="https://i.ibb.co/qk3vfbW/logo.jpg"
               alt=""
             />
           </div>

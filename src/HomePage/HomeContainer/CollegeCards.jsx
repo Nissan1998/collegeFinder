@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SearchClg from "../../Components/SearchClg";
 import useAllColleges from "../../Hooks/useAllColleges";
+import { Link } from "react-router-dom";
 
 const CollegeCards = () => {
   const allColleges = useAllColleges();
@@ -74,9 +75,12 @@ const CollegeCards = () => {
                           </p>
                         </div>
                         <div className="card-actions justify-end">
-                          <button className="bg-sky-500 hover:text-black glass text-white px-2 py-1 rounded-xl">
+                          <Link
+                            to={`/collegedetails/${college._id}`}
+                            className="bg-sky-500 hover:text-black glass text-white px-2 py-1 rounded-xl"
+                          >
                             Details
-                          </button>
+                          </Link>
                         </div>
                       </div>
                     </div>

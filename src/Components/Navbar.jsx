@@ -43,9 +43,11 @@ const Navbar = () => {
               <li>
                 <Link to="/collegeslist">Admission</Link>
               </li>
-              <li>
-                <Link to="/mycolleges">My College</Link>
-              </li>
+              {user && (
+                <li>
+                  <Link to="/mycolleges">My College</Link>
+                </li>
+              )}
               <li>
                 {user && (
                   <Link to="/profile" className="mr-5">
@@ -73,9 +75,11 @@ const Navbar = () => {
             <li>
               <Link to="/collegeslist">Admission</Link>
             </li>
-            <li>
-              <Link to="/mycolleges">My College</Link>
-            </li>
+            {user && (
+              <li>
+                <Link to="/mycolleges">My College</Link>
+              </li>
+            )}
           </ul>
         </div>
         <div className="navbar-end">

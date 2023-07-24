@@ -35,7 +35,7 @@ const AddCoffee = () => {
     console.log(myAdmission);
 
     // send data to the server
-    fetch("http://localhost:5000/admission", {
+    fetch("https://college-finder-server-three.vercel.app/admission", {
       method: "POST",
       headers: {
         "content-type": "application/json",
