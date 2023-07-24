@@ -8,30 +8,45 @@ const CollegesList = () => {
   return (
     <div>
       <div className="p-20 pb-10 rounded-3xl glass bg-sky-500">
-        <div className="text-center text-4xl flex justify-center justify-items-center font-bold shadow-2xl rounded-2xl rounded-t-none -mt-5 bg-black bg-opacity-20 text    pt-2 ">
+        <div className="text-center text-4xl flex justify-center justify-items-center font-bold shadow-2xl rounded-2xl rounded-t-none -mt-5 bg-black bg-opacity-20 text pt-2 ">
           <h1 className="mb-14 mt-10 text-white">
             Are You Ready To Get Admission?
           </h1>
         </div>
       </div>
-      <div className="-mt-10 bg-cover bg-sky-200 bg-fixed">
-        <div className="bg-blag-opacity">
-          <h2 className="pt-24 text-center text-3xl font-bold underline">
-            College List
+      <div
+        style={{
+          backgroundImage:
+            "url(https://media.istockphoto.com/id/1146367630/vector/abstract-navy-background.jpg?s=612x612&w=0&k=20&c=4odz8sgWFQHHwQ09ouonbKdvotg79421iCgJ8-99RyE=)",
+        }}
+        className="-mt-10 bg-cover bg-fixed"
+      >
+        <div>
+          <h2 className="pt-14 text-center text-3xl font-bold text-white underline">
+            Colleges List
           </h2>
           <div className="overflow-scroll overflow-x-hidden overflow-y-hidden scroll-smooth">
-            <div className="p-10 pt-0">
+            <div className="md:p-10 px-2 pt-0">
               {allColleges.map((d) => (
                 <div className="mb-5 " key={d.id}>
-                  <div className="mt-10 text-white">
-                    <div className="flex rounded-xl bg-gradient-to-r from-sky-500 to-sky-600 glass md:w-[50%] p-5  mx-auto gap-10 justify-center items-center">
-                      <img className="w-24 object-cover" src={d.image} alt="" />
-                      <h1 className="font-bold">{d.name}</h1>
-                      <Link to="/admission">
-                        <span className="font-semibold text-lg bg-sky-500 glass text-white px-4 py-1 rounded-full">
-                          Get Admission
-                        </span>
+                  <div className=" text-white">
+                    <div className="flex rounded-xl bg-gradient-to-r from-sky-900 to-sky-600 glass w-full md:w-[50%] p-5  mx-auto gap-10 justify-center items-center">
+                      <img
+                        className="md:w-24 w-14 object-cover"
+                        src={d.image}
+                        alt=""
+                      />
+                      <Link
+                        to={`/admission/${d._id}`}
+                        className="md:font-bold text-xl"
+                      >
+                        {d.name}
                       </Link>
+                      {/* <Link to="/admission">
+                        <span className="font-semibold text-xs md:text-lg md:bg-sky-500 glass text-white px-4 py-1 rounded-full">
+                          Admission
+                        </span>
+                      </Link> */}
                     </div>
                   </div>
                 </div>

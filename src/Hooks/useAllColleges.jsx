@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const useAllColleges = () => {
   const [allColleges, setCollege] = useState([]);
   useEffect(() => {
-    fetch("collegesData.json")
+    fetch("http://localhost:5000/allcolleges")
       .then((res) => res.json())
       .then((data) => setCollege(data))
       .catch((err) => console.log(err));
@@ -12,4 +12,3 @@ const useAllColleges = () => {
 };
 
 export default useAllColleges;
-// http://localhost:5000/allcolleges

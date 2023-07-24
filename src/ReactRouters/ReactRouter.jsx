@@ -6,11 +6,14 @@ import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import AdmissionForm from "../Pages/AdmissionPages/AdmissionForm";
 import CollegesList from "../Pages/AdmissionPages/CollegesList";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import MyColleges from "../Pages/MyColleges/MyColleges";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -33,8 +36,12 @@ const router = createBrowserRouter([
         element: <CollegesList />,
       },
       {
-        path: "admission",
+        path: "admission/:id",
         element: <AdmissionForm />,
+      },
+      {
+        path: "/mycolleges",
+        element: <MyColleges />,
       },
     ],
   },

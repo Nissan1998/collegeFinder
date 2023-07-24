@@ -44,7 +44,7 @@ const Navbar = () => {
                 <Link to="/collegeslist">Admission</Link>
               </li>
               <li>
-                <Link>My College</Link>
+                <Link to="/mycolleges">My College</Link>
               </li>
               <li>
                 {user && (
@@ -74,7 +74,7 @@ const Navbar = () => {
               <Link to="/collegeslist">Admission</Link>
             </li>
             <li>
-              <Link>My College</Link>
+              <Link to="/mycolleges">My College</Link>
             </li>
           </ul>
         </div>
